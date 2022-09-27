@@ -7,3 +7,6 @@ function positiveSum(arr) {
 function positiveSum(arr) {
   return arr.reduce((a, c) => a += c > 0 ? c : 0, 0)
 }
+
+//one liner
+let positiveSum = arr => arr.reduce((a, c) => a += c > 0 ? c : 0, 0)
