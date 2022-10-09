@@ -10,3 +10,6 @@ function abbrevName(name){
     return name.split(' ').map(x => x[0].toUpperCase()).join('.')
 
 }
+
+//ES6
+let abbrevName = name => name.split(' ').map(x => x[0].toUpperCase()).join('.')
