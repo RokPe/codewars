@@ -7,3 +7,6 @@ function makeNegative(num) {
 function makeNegative(num) {
   return -Math.abs(num)
 }
+
+//one liner
+let makeNegative = num => -Math.abs(num)
