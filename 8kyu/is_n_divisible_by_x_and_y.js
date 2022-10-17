@@ -4,3 +4,6 @@ function isDivisible(n, x, y) {
 
 //one liner
 let isDivisible = (n, x, y) => (n % x === 0) && (n % y === 0) ? true : false
+
+//even shorter one liner
+let isDivisible = (n, x, y) => n % x === 0 && n % y === 0
