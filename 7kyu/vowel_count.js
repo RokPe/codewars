@@ -22,3 +22,6 @@ let getCount = str => str.split('').filter(x => 'aeiou'.includes(x)).length
 function getCount(str) {
   return str.replace(/[^aeiou]/gi,'').length
 }
+
+//one line regex solution
+let getCount = str => str.replace(/[^aeiou]/gi,"").length
