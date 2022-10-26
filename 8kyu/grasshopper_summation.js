@@ -14,3 +14,12 @@ let summation = num => {
   }
   return total
 }
+
+//alternative solution using array
+var summation = function (num) {
+  let total = []
+  for(num; num > 0; num--) {
+    total.push(num)
+  }
+  return total.reduce((a, c) => a += c, 0)
+}
