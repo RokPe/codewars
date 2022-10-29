@@ -11,3 +11,8 @@ function descendingOrder(n){
 function descendingOrder(n){
   return parseInt(n.toString().split('').map(x => parseInt(x)).sort().reverse().join(''))
 }
+
+//alternative solution #3
+function descendingOrder(n){
+  return +n.toString().split('').map(x => +x).sort().reverse().join('')
+}
