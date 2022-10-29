@@ -16,3 +16,13 @@ function getMiddle(s)
     return s.slice(s.length/2 - 1, s.length/2 + 1)
   }
 }
+
+//alternative #2
+function getMiddle(s) {
+  let len = s.length
+  if(len % 2 !== 0) {
+    return s[Math.floor(len/2)]
+  }else {
+    return s.slice(len/2 - 1,len/2 + 1)
+  }
+}
